@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+
+body{
+    font-family: 'Average Sans', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    border-top: 10px solid #333;
+}
+p {line-height: 20px;}
+a {text-decoration: none;}
+a:hover, a:active {color: #ccc;}
+
+.hidden {display: none;}
+
+.roundShadow {
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px rgba(50,50,50,0.4);
+}
+
+#siteContainer {
+    margin: 0 auto;
+    width: 960px;
+}
+
+#mainHeader{
+    margin-top: 40px;
+    padding-bottom: 20px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+#logo {
+    width: 260px;
+    margin-top: 5px;
+}
+
+#logo h1 {
+    font-size: 44px;
+    color: red;
+    line-height: 25px;
+}
+
+#logoStudios {
+    display: block;
+    font-size: 60px;
+    color: #333;
+    letter-spacing: -1px;
+    line-height: 60px;
+}
+
+
+
+#mainNav{
+	margin-left: auto;
+	display: flex;
+    flex-direction: column;
+}
+
+#search {margin-left: auto;}
+
+#search form {margin-bottom: 22px;}
+
+#search input {
+    background: url('../images/search_whit.png') no-repeat 10px 6px #fcfcfc;
+    border:1px solid #d1d1d1;
+    color: #666;
+    width: 150px;
+    padding: 6px 15px 6px 15px;
+    border-radius: 20px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+
+}
+
+#mainNav ul{
+    text-transform: uppercase;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#mainNav ul li a {
+    display: block;
+    width: 100px;
+    background-color: red;
+    color: #fff;
+    margin-left: 20px;
+    text-align: center;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 600;
+
+    border-radius: 7px;
+    background: #ef3891;
+}
+
+.nav{
+    border: 1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    color: #000;
+}
